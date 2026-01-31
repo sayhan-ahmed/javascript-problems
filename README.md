@@ -116,7 +116,7 @@ Given an array of strings, find the shortest word.
 
 Write a function that converts Celsius to Fahrenheit.
 
-> The formula is:
+> The formula is: F = (C × 9/5) + 32
 
 - **Example:**
 - **Input:** `0`
