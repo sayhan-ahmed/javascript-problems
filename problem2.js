@@ -1,3 +1,11 @@
+// ===== Problem 2: Even or Odd =====
+
+// Given a number, check whether it is even or odd.
+
+// - Example:
+// - Input: 7
+// - Output: Odd
+
 // Method 1
 
 const number = 7;
