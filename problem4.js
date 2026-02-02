@@ -38,3 +38,17 @@ const strArray2 = [...stringThird.toLowerCase()].filter((c) =>
 );
 
 console.log(strArray2.length);
+
+// === Method 4 === //
+function countVowels2(string) {
+  let vowelCount = 0;
+  const vowels = "aeiouAEIOU";
+
+  for (const index in string) {
+    if (vowels.includes(string[index])) {
+      vowelCount++;
+    }
+  }
+  return vowelCount;
+}
+console.log(countVowels2("Method 'for in' loop"));
